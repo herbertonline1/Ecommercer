@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(/);
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid brown;
+    margin-bottom:30px;
+    font-size: 35px;
+    font-family: monospace;
+    color: brown;
+}
+
+.container{
+    border: 3px solid brown;
+    color:rgb(15, 15, 15);
+    width: 400px;
+    height: 150px;
+    margin-left: 10px;
+    margin-bottom: 700px;
+
+}
+
+
+.icone{
+    color: yellow;
+    background-color: brown;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    font-size: 25px;
+}
+
+
+.produto{
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+    font-family: monospace;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background-color: brown;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 800;
+    border:none;
+    padding: 15px;
+    color: yellow;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 600px;
+    left: 150px;
+    cursor: pointer;
+    transition: 2s;
+    
+    
+}
+
+
+a:hover{
+    background-color: green;
+    transition-duration: 1s;
+}
+
+button{
+    color: azure;
+    background-color: darkorange;
+    border-radius: 50px;
+    width: 160px;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    animation: fale  5s ease-in-out infinite;
+    transform: translateY(0px);
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: brown;
+    transition: 2s;
+}
+
+@keyframes fale {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+img{
+   width: 400px;
+  border: 3px solid brown;
+   margin-left: 13px;
+   
+}
